@@ -52,7 +52,7 @@ public class FragmentFavourite extends Fragment {
 
 
         VideoView vvVideo = root.findViewById(R.id.vv_video);
-        String videoPath = "android.resource://" + getContext().getPackageName() + "/" + R.raw.the_map_of_computer_science;
+        String videoPath = "android.resource://" + getContext().getPackageName() + "/" + R.raw.beautiful_mistakes;
         Uri uri = Uri.parse(videoPath);
         vvVideo.setVideoURI(uri);
 
