@@ -29,7 +29,7 @@
         android:layout_height="1dp"
         android:alpha=".5"
         android:layout_above="@id/layout_dots"
-        android:background="@android:color/white" />
+        android:background="@color/mimosa" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_next"
@@ -39,7 +39,8 @@
         android:layout_alignParentEnd="true"
         android:background="@null"
         android:text="NEXT"
-        android:textColor="@android:color/white"
+        android:fontFamily="@font/averia_regular"
+        android:textColor="@color/dot_dark_screen1"
         tools:ignore="RelativeOverlap" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -50,5 +51,6 @@
         android:layout_alignParentStart="true"
         android:background="@null"
         android:text="SKIP"
-        android:textColor="@android:color/white" />
+        android:fontFamily="@font/averia_regular"
+        android:textColor="@color/dot_dark_screen1" />
 </RelativeLayout>
